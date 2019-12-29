@@ -1,0 +1,73 @@
+const API = 'http://39.108.112.212:8080/freeter-admin'
+
+export const QUERY_BY_CONDITION_URL = API + '/goods/goods/queryByCondition'
+export const QUERY_REGION_URL = API + '/region/region/query'
+export const QUERY_REGIONLIST_URL = API + '/region/region/queryList'
+
+export const CONCERN_LIST_URL = API + '/concern/concern/list'
+export const CONCERN_TYPE_URL = API + '/concern/concern/concernType'
+export const CONCERN_TYPE_CANCEL_URL = API + '/concern/concern/cancelConcernType'
+export const CONCERN_SAVE_URL = API + '/concern/concern/save'
+export const CONCERN_DELETE_URL = API + '/concern/concern/delete'
+export const CATEGORY_LIST_URL = API + '/category/category/categoryList'
+
+export const USER_REGISTER_URL = API + '/user/user/register'
+export const USER_FORPASSWORD_URL = API + '/user/user/findPassword'
+export const USER_SMSCODE_URL = API + '/user/user/getCode'
+export const USER_LOGIN_URL = API + '/user/user/clientLogin'
+export const USER_ISLOGIN_URL = API + '/user/user/checkedLogin'
+export const USER_SMSLOGIN_URL = API + '/user/user/smsLogin'
+export const USER_PASSWORD_URL = API + '/user/user/password'
+export const USER_UPDATE_URL = API + '/user/user/update'
+export const USER_LOGOUT_URL = API + '/logout'
+export const USER_IDCARD_URL = API + '/user/user/idCard'
+export const USER_PAYPASS_URL = API + '/user/user/setPayPassword'
+export const USER_RECHARGE_URL = API + '/user/user/addWalletMoney'
+export const USER_BANKCARD_LIST_URL = API + '/userCard/userCard/list'
+export const USER_BANKCARD_ADD_URL = API + '/userCard/userCard/save'
+
+export const UPLOAD_URL = API + '/uploadFile'
+
+export const GOODS_DETAIL_URL = API + '/goods/goods/getGoodsDetail'
+export const GOODS_AUCTION_URL = API + '/auction/auction/save'
+export const GOODS_AUCTION_LIST_URL = API + '/auction/auction/auctionList'
+export const GOODS_RECORD_LIST_URL = API + '/goodsRecord/goodsRecord/clientList'
+
+export const ORDER_INFO_URL = API + '/order/order/info/'
+export const ORDER_SIGNUP_URL = API + '/order/order/signup'
+export const ORDER_ADDPRICEORDER_URL = API + '/order/order/saveAddPriceOrder'
+export const ORDER_ADDPRICE_URL = API + '/order/order/addPrice'
+export const ORDER_ONEPRICE_URL = API + '/order/order/preBuyOnePriceGoods'
+export const ORDER_ONEPRICEPAY_URL = API + '/order/order/buyOnePriceGoods'
+export const ORDER_SERVICE_URL = API + '/order/order/preBuyService'
+export const ORDER_SERVICE_INFO_URL = API + '/order/order/serviceInfo/'
+export const ORDER_SERVICEPAY_URL = API + '/order/order/buyService'
+export const ORDER_LIST_URL = API + '/order/order/myOrderList'
+export const ORDER_CART_URL = API + '/order/order/preCartOrder'
+export const ORDER_CARTPAY_URL = API + '/order/order/buyCartOrder'
+export const ORDER_CARTINFO_URL = API + '/order/order/cartInfo'
+export const ORDER_RECEIVE_URL = API + '/order/order/confirmReceiveGoods'
+
+export const REMIND_LIST_URL = API + '/notice/notice/noticeList'
+export const REMIND_SAVE_URL = API + '/notice/notice/save'
+export const REMIND_CANCEL_URL = API + '/notice/notice/cancelNotice'
+export const REMIND_SETTINGINFO_URL = API + '/userNotice/userNotice/getNoticeInfo'
+export const REMIND_SETTINGSAVE_URL = API + '/userNotice/userNotice/update'
+
+export const HISTORY_LIST_URL = API + '/view/view/clientList'
+export const HISTORY_DEL_URL = API + '/view/view/delete'
+export const HISTORY_DELALL_URL = API + '/view/view/deleteAllRecordByUser'
+
+export const SERVICE_LIST_URL = API + '/service/service/clientList'
+export const SERVICE_DETAIL_URL = API + '/service/service/selectDetail'
+
+export const CART_ADD_URL = API + '/cart/cart/save'
+export const CART_LIST_URL = API + '/cart/cart/clientList'
+export const CART_DELETE_URL = API + '/cart/cart/delete'
+
+export const MESSAGE_TYPE_URL = API + '/message/message/clientTypeList'
+export const MESSAGE_LIST_URL = API + '/message/message/clientList'
+
+export const BANKCARD_LIST_URL = API + '/bankCard/bankCard/list'
+
+export const INDEX_MESSAGE_URL = API + '/noticeMessage/noticeMessage/clientList'
